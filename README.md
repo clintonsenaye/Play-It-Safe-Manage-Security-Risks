@@ -78,19 +78,122 @@ The audit identified critical gaps in Botium Toys' security program, including:
 ## Deliverables
 
 ### 1. Audit Scope and Goals
-Comprehensive documentation of the audit parameters, objectives, and risk assessment framework.
 
-[📄 View Audit Scope and Goals](https://github.com/clintonsenaye/ClintonSenaye/files/12501371/Botium_Toys_Audit_Scope_and_goals.pdf)
+**Summary:**
+Perform an audit of Botium Toys' cybersecurity program. The audit needs to align current business practices with industry standards and best practices. The audit is meant to provide mitigation recommendations for vulnerabilities found that are classified as "high risk," and present an overall strategy for improving the security posture of the organization. The audit team needs to document their findings, provide remediation plans and efforts, and communicate with stakeholders.
+
+**Scope:**
+Botium Toys internal IT audit will assess the following:
+- Current user permissions set in the following systems: accounting, end point detection, firewalls, intrusion detection system, security information and event management (SIEM) tool.
+- Current implemented controls in the following systems: accounting, end point detection, firewalls, intrusion detection system, Security Information and Event Management (SIEM) tool.
+- Current procedures and protocols set for the following systems: accounting, end point detection, firewall, intrusion detection system, Security Information and Event Management (SIEM) tool.
+- Ensure current user permissions, controls, procedures, and protocols in place align with necessary compliance requirements.
+- Ensure current technology is accounted for. Both hardware and system access.
+
+**Goals:**
+The goals for Botium Toys' internal IT audit are:
+- To adhere to the National Institute of Standards and Technology Cybersecurity Framework (NIST CSF)
+- Establish a better process for their systems to ensure they are compliant
+- Fortify system controls
+- Implement the concept of least permissions when it comes to user credential management
+- Establish their policies and procedures, which includes their playbooks
+- Ensure they are meeting compliance requirements
 
 ### 2. Controls Assessment
-Detailed analysis of security controls with implementation status and priority recommendations.
 
-[📄 View Controls Assessment](https://github.com/clintonsenaye/ClintonSenaye/files/12501372/Controls_assessment_for_Botium_Toys.pdf)
+**Current Assets**
+
+Assets managed by the IT Department include:
+- On-premises equipment for in-office business needs
+- Employee equipment: end-user devices (desktops/laptops, smartphones), remote workstations, headsets, cables, keyboards, mice, docking stations, surveillance cameras, etc.
+- Management of systems, software, and services: accounting, telecommunication, database, security, ecommerce, and inventory management
+- Internet access
+- Internal network
+- Vendor access management
+- Data center hosting services
+- Data retention and storage
+- Badge readers
+- Legacy system maintenance: end-of-life systems that require human monitoring
+
+#### Administrative Controls
+
+| Control Name | Control Type and Explanation | Implementation Needed | Priority |
+|-------------|------------------------------|----------------------|----------|
+| **Least Privilege** | Preventative; reduces risk by making sure vendors and non-authorized staff only have access to the assets/data they need to do their jobs | ✓ | High |
+| **Disaster Recovery Plans** | Corrective; business continuity to ensure systems are able to run in the event of an incident/there is limited to no loss of productivity downtime/impact to system components | ✓ | High |
+| **Password Policies** | Preventative; establish password strength rules to improve security/reduce likelihood of account compromise through brute force or dictionary attack techniques | ✓ | High |
+| **Access Control Policies** | Preventative; increase confidentiality and integrity of data | ✓ | High |
+| **Account Management Policies** | Preventative; reduce attack surface and limit overall impact from disgruntled/former employees | ✓ | High/Medium |
+| **Separation of Duties** | Preventative; ensure no one has so much access that they can abuse the system for personal gain | ✓ | High |
+
+#### Technical Controls
+
+| Control Name | Control Type and Explanation | Implementation Needed | Priority |
+|-------------|------------------------------|----------------------|----------|
+| **Firewall** | Preventative; firewalls are already in place to filter unwanted/malicious traffic from entering internal network | N/A | N/A |
+| **Intrusion Detection System (IDS)** | Detective; allows IT team to identify possible intrusions (e.g., anomalous traffic) quickly | ✓ | High |
+| **Encryption** | Deterrent; makes confidential information/data more secure (e.g., website payment transactions) | ✓ | High/Medium |
+| **Backups** | Corrective; supports ongoing productivity in the case of an event; aligns to the disaster recovery plan | ✓ | High |
+| **Password Management System** | Corrective; password recovery, reset, lock out notifications | ✓ | High/Medium |
+| **Antivirus (AV) Software** | Corrective; detect and quarantine known threats | ✓ | High |
+| **Manual Monitoring, Maintenance, and Intervention** | Preventative/corrective; required for legacy systems to identify and mitigate potential threats, risks, and vulnerabilities | ✓ | High |
+
+#### Physical Controls
+
+| Control Name | Control Type and Explanation | Implementation Needed | Priority |
+|-------------|------------------------------|----------------------|----------|
+| **Time-Controlled Safe** | Deterrent; reduce attack surface/impact of physical threats | ✓ | Medium/Low |
+| **Adequate Lighting** | Deterrent; limit "hiding" places to deter threats | ✓ | Medium/Low |
+| **Closed-Circuit Television (CCTV) Surveillance** | Preventative/detective; can reduce risk of certain events; can be used after event for investigation | ✓ | High/Medium |
+| **Locking Cabinets (for network gear)** | Preventative; increase integrity by preventing unauthorized personnel/individuals from physically accessing/modifying network infrastructure gear | ✓ | Medium |
+| **Signage Indicating Alarm Service Provider** | Deterrent; makes the likelihood of a successful attack seem low | ✓ | Low |
+| **Locks** | Preventative; physical and digital assets are more secure | ✓ | High |
+| **Fire Detection and Prevention** | Detective/Preventative; detect fire in the toy store's physical location to prevent damage to inventory, servers, etc. | ✓ | Medium/Low |
 
 ### 3. Compliance Checklist
-Evaluation of regulatory compliance requirements with justification for applicable standards.
 
-[📄 View Compliance Checklist](https://github.com/clintonsenaye/ClintonSenaye/files/12501374/Compliance_checklist_for_Botium_Toys.pdf)
+#### Federal Energy Regulatory Commission - North American Electric Reliability Corporation (FERC-NERC)
+
+**Regulation Overview:**
+The FERC-NERC regulation applies to organizations that work with electricity or that are involved with the U.S. and North American power grid. Organizations have an obligation to prepare for, mitigate, and report any potential security incident that can negatively affect the power grid. Organizations are legally required to adhere to the Critical Infrastructure Protection Reliability Standards (CIP) defined by the FERC.
+
+**Applicability:** N/A
+
+---
+
+#### General Data Protection Regulation (GDPR)
+
+**Regulation Overview:**
+GDPR is a European Union (E.U.) general data regulation that protects the processing of E.U. citizens' data and their right to privacy in and out of E.U. territory. Additionally, if a breach occurs and a E.U. citizen's data is compromised, they must be informed within 72 hours of the incident.
+
+**Applicability:** ✓ **Botium Toys needs to adhere to GDPR** because they conduct business and collect personal information from people worldwide, including the E.U.
+
+---
+
+#### Payment Card Industry Data Security Standard (PCI DSS)
+
+**Regulation Overview:**
+PCI DSS is an international security standard meant to ensure that organizations storing, accepting, processing, and transmitting credit card information do so in a secure environment.
+
+**Applicability:** ✓ **Botium Toys needs to adhere to PCI DSS** because they store, accept, process, and transmit credit card information in person and online.
+
+---
+
+#### The Health Insurance Portability and Accountability Act (HIPAA)
+
+**Regulation Overview:**
+HIPAA is a federal law established in 1996 to protect U.S. patients' health information. This law prohibits patient information from being shared without their consent. Organizations have a legal obligation to inform patients of a breach.
+
+**Applicability:** N/A
+
+---
+
+#### System and Organizations Controls (SOC type 1, SOC type 2)
+
+**Regulation Overview:**
+The SOC1 and SOC2 are a series of reports that focus on an organization's user access policies at different organizational levels. They are used to assess an organization's financial compliance and levels of risk. They also cover confidentiality, privacy, integrity, availability, security, and overall data safety. Control failures in these areas can lead to fraud.
+
+**Applicability:** ✓ **Botium Toys must implement and enforce suitable user access controls** for both internal and external personnel, including third-party vendors, to minimize potential risks and guarantee the security of data.
 
 ---
 
