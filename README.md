@@ -1,21 +1,145 @@
-<h1>Play It Safe: Manage Security Risks</h1>
+# Internal Security Audit: Botium Toys
 
-During the course, I gained a better understanding of the Certified Information Systems Security Professional (CISSP)'s eight security domains, as well as distinct security frameworks and controls. I got an introduction to utilizing security tools and conducting audits as a means of safeguarding assets and data. The cybersecurity industry widely recognizes these concepts as fundamental, and understanding them is crucial for protecting organizations and their stakeholders against potential threats, hazards, and susceptibilities. At the end of the course, I got the opportunity to conduct an internal audit for a fictional company, Biotium Toys. In this activity, I analyzed the organization's audit scope, goals, and risk assessment. During the audit, I conducted a control assessment by reviewing the list of Botium Toys' assets, examining each control's name, analyzing its types and explanations, marking an "X" next to each control that requires implementation, and noting the priority levels (high, medium, and/or low; NA if not applicable).
+## Overview
 
-I conducted a compliance checklist as part of the internal audit process. In light of the hypothetical company's situation, I took into account the geographical locations where the company operates and the methods by which they receive payments from their clientele. In addition, I provided an explanation as to why it is imperative for the company to comply with the chosen regulations and standards.
+This project demonstrates a comprehensive internal security audit conducted for Botium Toys, a fictional toy company. The audit evaluates the organization's current security posture, identifies vulnerabilities, and provides prioritized recommendations for improving controls and ensuring regulatory compliance.
 
-<h4>Project description:</h4>
+**Skills Demonstrated:** Risk Assessment | Control Analysis | Compliance Evaluation | CISSP Security Domains | Security Frameworks
 
-During this project, I conducted a comprehensive assessment of Botium Toys' cybersecurity programme. The audit aimed to ensure that current business practices are in line with industry standards and best practices. The purpose of the audit was to offer mitigation recommendations for high-risk vulnerabilities identified and to present a comprehensive strategy for enhancing the organisation's security posture. I was required to thoroughly document findings, develop comprehensive remediation plans, and effectively communicate with all relevant stakeholders.
+---
 
-Botium Toys: Audit scope and goals:
+## Table of Contents
 
-[Botium_Toys_Audit_Scope_and_goals.pdf](https://github.com/clintonsenaye/ClintonSenaye/files/12501371/Botium_Toys_Audit_Scope_and_goals.pdf)
+- [Objective](#objective)
+- [Scope](#scope)
+- [Methodology](#methodology)
+- [Key Findings](#key-findings)
+- [Deliverables](#deliverables)
+- [Frameworks & Standards](#frameworks--standards)
+- [Tools & Techniques](#tools--techniques)
 
-Control Assesment:
+---
 
-[Controls_assessment_for_Botium_Toys.pdf](https://github.com/clintonsenaye/ClintonSenaye/files/12501372/Controls_assessment_for_Botium_Toys.pdf)
+## Objective
 
-Comliance checklist:
+The primary objective of this audit was to:
+- Assess Botium Toys' current security controls against industry best practices
+- Identify high-risk vulnerabilities and gaps in the security program
+- Evaluate compliance with relevant regulations based on business operations and payment processing
+- Provide actionable, prioritized remediation recommendations
 
-[Compliance_checklist_for_Botium_Toys.pdf](https://github.com/clintonsenaye/ClintonSenaye/files/12501374/Compliance_checklist_for_Botium_Toys.pdf)
+---
+
+## Scope
+
+The audit encompassed:
+- **Asset inventory review** - Analysis of all company assets requiring protection
+- **Control assessment** - Evaluation of existing administrative, technical, and physical controls
+- **Compliance analysis** - Review of regulatory requirements based on:
+  - Geographic operating locations
+  - Payment processing methods
+  - Data handling practices
+
+---
+
+## Methodology
+
+### 1. Risk Assessment
+Analyzed Botium Toys' audit scope, goals, and current risk landscape to understand the organization's threat profile.
+
+### 2. Control Assessment
+Systematically reviewed each security control by:
+- Examining control categories (administrative, technical, physical)
+- Evaluating current implementation status
+- Assigning priority levels (High, Medium, Low, N/A) based on risk impact
+- Identifying controls requiring immediate implementation
+
+### 3. Compliance Evaluation
+Created a comprehensive compliance checklist considering:
+- Industry-specific regulatory requirements
+- Geographic jurisdictions where the company operates
+- Payment Card Industry (PCI) standards for payment processing
+- Data protection regulations
+
+---
+
+## Key Findings
+
+The audit identified critical gaps in Botium Toys' security program, including:
+
+- **Missing or inadequate controls** requiring immediate implementation to protect organizational assets
+- **Compliance gaps** that expose the company to regulatory penalties
+- **High-priority vulnerabilities** that could impact business operations and customer data security
+
+*Detailed findings and specific recommendations are documented in the deliverables below.*
+
+---
+
+## Deliverables
+
+### 1. Audit Scope and Goals
+Comprehensive documentation of the audit parameters, objectives, and risk assessment framework.
+
+[📄 View Audit Scope and Goals](https://github.com/clintonsenaye/ClintonSenaye/files/12501371/Botium_Toys_Audit_Scope_and_goals.pdf)
+
+### 2. Controls Assessment
+Detailed analysis of security controls with implementation status and priority recommendations.
+
+[📄 View Controls Assessment](https://github.com/clintonsenaye/ClintonSenaye/files/12501372/Controls_assessment_for_Botium_Toys.pdf)
+
+### 3. Compliance Checklist
+Evaluation of regulatory compliance requirements with justification for applicable standards.
+
+[📄 View Compliance Checklist](https://github.com/clintonsenaye/ClintonSenaye/files/12501374/Compliance_checklist_for_Botium_Toys.pdf)
+
+---
+
+## Frameworks & Standards
+
+This audit incorporated knowledge of the following industry-recognized frameworks:
+
+- **CISSP Eight Security Domains**
+  - Security and Risk Management
+  - Asset Security
+  - Security Architecture and Engineering
+  - Communication and Network Security
+  - Identity and Access Management (IAM)
+  - Security Assessment and Testing
+  - Security Operations
+  - Software Development Security
+
+- **Security Control Frameworks**
+  - NIST Cybersecurity Framework (CSF)
+  - ISO 27001/27002
+  - CIS Controls
+
+- **Compliance Standards**
+  - PCI DSS (Payment Card Industry Data Security Standard)
+  - GDPR (General Data Protection Regulation)
+  - SOC 2 (System and Organization Controls)
+
+---
+
+## Tools & Techniques
+
+- **Control Assessment Matrices** - Structured evaluation of security controls
+- **Risk Prioritization** - Classification methodology for remediation planning
+- **Compliance Mapping** - Alignment of business operations with regulatory requirements
+- **Gap Analysis** - Identification of discrepancies between current and desired security state
+
+---
+
+## Skills Applied
+
+- Security auditing and assessment
+- Risk management and analysis
+- Regulatory compliance evaluation
+- Control framework implementation
+- Security documentation and reporting
+- Stakeholder communication
+
+---
+
+## About This Project
+
+This project was completed as part of the **Google Cybersecurity Professional Certificate** program, specifically within the "Play It Safe: Manage Security Risks" course. It demonstrates practical application of security audit principles, control assessment methodologies, and compliance evaluation techniques in a realistic business scenario.
